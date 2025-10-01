@@ -1,51 +1,59 @@
-# 🎶 Python Music Player  
+<h1 align="center">🎵 Music Player - Python GUI</h1>
 
-A modern, lightweight **Music Player GUI application** built with **Python**.  
-It uses **Tkinter** for the interface, **Pygame Mixer** for audio playback, **Mutagen** for MP3 metadata, and **Pillow** for images.  
+<p align="center">
+  <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="300"/>
+</p>
 
-This project demonstrates how you can combine **Python GUI + Audio + Images** to make a feature-rich desktop application.  
+<p align="center">
+  <b>A sleek Python Music Player with Tkinter, Pygame, Mutagen & Pillow.</b><br>
+  Play, pause, stop, control volume, and watch animated album art while enjoying your favorite songs!
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.7%2B-blue?style=flat-square&logo=python"/>
+  <img src="https://img.shields.io/badge/Tkinter-GUI-yellow?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Audio-Pygame-red?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=flat-square"/>
+</p>
+
+---
+
+## 🧠 Features
+
+✅ Play, Pause & Stop MP3 Songs  
+✅ Animated Album Art Display  
+✅ Volume Control with Mute/Unmute  
+✅ Real-Time Song Duration Tracking (MP3 Metadata)  
+✅ File Menu: Open Music & Exit  
+✅ Help Menu: About Section  
+
+---
+
+## 🚀 Demo
+
+> "Select a song and press play."  
+> "Music starts playing with animated images!"  
+> "Adjust volume, pause, or stop anytime."  
 
 ![Music Player Demo](https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif)  
 
 ---
 
-## ✨ Features
-- 🎼 **MP3 Playback** – Load and play MP3 songs with ease  
-- ⏯️ **Play, Pause, Stop Controls** – Interactive music buttons  
-- 🔊 **Volume Control** – Slider-based volume adjustment + Mute/Unmute toggle  
-- ⏱️ **Song Duration Tracking** – Shows elapsed and total song time  
-- 🖼️ **Image-Based UI** – Stylish interface using custom icons and background  
-- 🎞️ **Animated Album Art** – Rotating images during music playback  
-- 📂 **File Menu** – Open music files, exit program  
-- ℹ️ **Help Menu** – About dialog with credits  
+## 🛠 Tech Stack
+
+- `Python 3.7+`  
+- `Tkinter` – GUI  
+- `Pygame Mixer` – Music playback  
+- `Mutagen` – MP3 metadata (length)  
+- `Pillow (PIL)` – Images & animations  
 
 ---
 
-## 🛠️ Technology Stack
-- **Python 3.7+**  
-- **Tkinter** – GUI library  
-- **Pygame Mixer** – Audio playback  
-- **Mutagen** – MP3 metadata and duration  
-- **Pillow (PIL)** – Image processing and display  
-
----
-
-## 💻 System Requirements
-- OS: Windows / Linux / macOS  
-- Python: Version 3.7 or above  
-- RAM: 2GB minimum  
-- Storage: ~50MB (for assets and music files)  
-
----
-
-## 📦 Installation  
-
-Clone the repository and install the required dependencies:  
+## 🧩 Installation
 
 ```bash
 git clone https://github.com/your-username/music-player.git
 cd music-player
+pip install pygame mutagen Pillow
+python music_player.py
 
-pip install pygame
-pip install mutagen
-pip install Pillow
