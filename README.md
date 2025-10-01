@@ -1,7 +1,7 @@
 <h1 align="center">🎵 Music Player - Python GUI</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Znl1eHFvMWFoZmdxMDE1MWVpdTZ4bWJkN3lqMmpsN3ZlYWFzczU4eCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/WY98eEjo1LtC/giphy.gif" width="300"/>
 </p>
 
 <p align="center">
