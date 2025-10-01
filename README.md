@@ -1,7 +1,7 @@
 <h1 align="center">🎵 Music Player - Python GUI</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="300"/>
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 > "Music starts playing with animated images!"  
 > "Adjust volume, pause, or stop anytime."  
 
-![Music Player Demo](https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif)  
+![Music Player Demo](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)  
 
 ---
 
@@ -56,4 +56,3 @@ git clone https://github.com/your-username/music-player.git
 cd music-player
 pip install pygame mutagen Pillow
 python music_player.py
-
