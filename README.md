@@ -1,58 +1,62 @@
-<h1 align="center">🎵 Music Player - Python GUI</h1>
+<h1 align="center">🎵 Python Music Player (Tkinter + Pygame)</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Znl1eHFvMWFoZmdxMDE1MWVpdTZ4bWJkN3lqMmpsN3ZlYWFzczU4eCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/WY98eEjo1LtC/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/WY98eEjo1LtC/giphy.gif" width="280"/>
 </p>
 
 <p align="center">
-  <b>A sleek Python Music Player with Tkinter, Pygame, Mutagen & Pillow.</b><br>
-  Play, pause, stop, control volume, and watch animated album art while enjoying your favorite songs!
+  <b>A simple yet elegant music player built with Python, Tkinter, Pygame, Mutagen, and Pillow.</b><br>
+  Play, pause, stop, and control volume while watching image animations — all in one lightweight GUI.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue?style=flat-square&logo=python"/>
   <img src="https://img.shields.io/badge/Tkinter-GUI-yellow?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Audio-Pygame-red?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Pygame-Audio-red?style=flat-square"/>
   <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=flat-square"/>
 </p>
 
 ---
 
-## 🧠 Features
+## 📸 Preview
+> The player interface includes album art, animated images, and real-time song length updates.
 
-✅ Play, Pause & Stop MP3 Songs  
-✅ Animated Album Art Display  
-✅ Volume Control with Mute/Unmute  
-✅ Real-Time Song Duration Tracking (MP3 Metadata)  
-✅ File Menu: Open Music & Exit  
-✅ Help Menu: About Section  
+![Demo GIF](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ---
 
-## 🚀 Demo
+## 🧠 Features
 
-> "Select a song and press play."  
-> "Music starts playing with animated images!"  
-> "Adjust volume, pause, or stop anytime."  
-
-![Music Player Demo](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)  
+✅ Play, Pause, and Stop MP3 files  
+✅ Real-time total & current time display  
+✅ Volume control and Mute/Unmute button  
+✅ Animated image sequence (changes every 3 seconds)  
+✅ File menu (Open & Exit)  
+✅ Help → About section  
+✅ Status labels showing current music and playback status  
 
 ---
 
 ## 🛠 Tech Stack
 
-- `Python 3.7+`  
-- `Tkinter` – GUI  
-- `Pygame Mixer` – Music playback  
-- `Mutagen` – MP3 metadata (length)  
-- `Pillow (PIL)` – Images & animations  
+- **Python 3.7+**
+- **Tkinter** — GUI framework  
+- **Pygame (mixer)** — Music playback  
+- **Mutagen** — MP3 file metadata  
+- **Pillow (PIL)** — Image handling  
 
 ---
 
-## 🧩 Installation
+## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/music-player.git
-cd music-player
+# Clone this repository
+git clone https://github.com/XpertPabitra/Music-Player.git
+
+cd Music-Player
+
+# Install dependencies
 pip install pygame mutagen Pillow
+
+# Run the player
 python music_player.py
